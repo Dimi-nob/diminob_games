@@ -102,6 +102,12 @@ a:hover{
 
 }
 
+.cover_1{
+    display: block;
+    margin: auto;
+    width: 35%;
+}
+
 @keyframes rotate {
     0% {
         rotate: 0deg
