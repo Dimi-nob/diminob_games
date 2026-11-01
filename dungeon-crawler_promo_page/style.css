@@ -1,0 +1,84 @@
+body{
+    background-color: #1d1d1d;    
+}
+h1{
+    color: #d17906;
+    font-size:7vw;
+    text-align:center;
+    margin:0;
+    margin-bottom:10vh;
+    font-family:"jersey 10";
+    }
+
+h2{
+    color: #d17906;
+    font-size: 3.5vw;
+    text-align:start;
+    margin:0;
+    margin-left: 3vw;
+    margin-top:15px;
+    font-family:"sour gummy";
+    font-weight: 400;
+}
+
+p{
+    color: #d17906;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right:15vw;
+    margin-top:8vh;
+    margin-bottom:8vh;
+    
+}
+
+p:hover {
+    text-align: center;
+    margin-left: 15vw;
+    margin-right:15vw;
+    margin-top:8vh;
+    margin-bottom:8vh;
+    
+}
+
+a:link{
+    color: #7a4500;
+    text-decoration: none;
+    font-family:"jersey 10";
+    font-size:7vw;
+    border: #7a4500 solid 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+   
+}
+
+    
+a:visited{
+    color: #7a4500;
+    text-decoration: none;
+    font-family:"jersey 10";
+    font-size:7vw;
+    border: #7a4500 solid 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    
+    
+    
+}
+    
+a:hover{
+    color: #d17906;
+    text-decoration: none;
+    font-family:"jersey 10";
+    font-size:7vw;
+    border: #d17906 solid 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+   
+    
+    
+}
+
+
+    
+
+

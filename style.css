@@ -1,0 +1,106 @@
+body{
+    background-color: black;    
+}
+h1{
+    color: #ea213a;
+    font-size:7vw;
+    text-align:center;
+    margin:0;
+    margin-bottom:10vh;
+    font-family:"jersey 10"
+    }
+
+h2{
+    color: #fc263f;
+    font-size: 4vw;
+    text-align:start;
+    margin:0;
+    margin-left: 3vw;
+    margin-top:15px;
+    font-family:"sour gummy";
+    font-weight: 400;
+}
+
+p{
+   font-family: "roboto";
+    color: #ea213a;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right:15vw;
+    margin-top:7vh;
+    margin-bottom:7vh;
+    
+}
+
+p:hover {
+    font-family: "roboto";
+    text-align: center;
+    margin-left: 15vw;
+    margin-right:15vw;
+    margin-top:7vh;
+    margin-bottom:7vh;
+    
+}
+
+a:link{
+    color: #ea213a;
+    text-decoration: none;
+    font-family:"roboto";
+    font-size:5vw;
+    border: #ea213a solid 1vw;
+    background-color: black;
+    padding-left: 5vw;
+    padding-right: 5vw;
+   
+}
+
+    
+a:visited{
+    color: #ea213a;
+    text-decoration: none;
+    font-family:"roboto";
+    font-size:5vw;
+    border: #ea213a solid 1vw;
+    background-color: black;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    
+    
+    
+}
+    
+a:hover{
+    color: #c9626e;
+    text-decoration: none;
+    font-family:"roboto";
+    font-size:5vw;
+    border: #c9626e solid 1vw;
+    background-color: black;
+    padding-left: 5vw;
+    padding-right: 5vw;
+   
+    
+    
+}
+
+.logo{
+    height: 15vh ;
+    margin-left: 2vw;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+
+
+}
+
+@keyframes rotate {
+    0% {
+        rotate: 0deg
+    }
+    100%{
+        rotate: 360deg
+    }
+}
+
