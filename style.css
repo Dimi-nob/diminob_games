@@ -25,6 +25,7 @@ p{
    font-family: "roboto";
     color: #ea213a;
     text-align: center;
+    align-content: center;
     margin-left: 15vw;
     margin-right:15vw;
     margin-top:7vh;
@@ -35,6 +36,7 @@ p{
 p:hover {
     font-family: "roboto";
     text-align: center;
+    align-content: center;
     margin-left: 15vw;
     margin-right:15vw;
     margin-top:7vh;
