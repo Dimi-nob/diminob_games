@@ -1,3 +1,5 @@
+@import url(fonts.css);
+
 body{
     background-color: black;    
 }
@@ -80,6 +82,9 @@ a:hover{
     background-color: black;
     padding-left: 5vw;
     padding-right: 5vw;
+    animation-name: resize;
+    animation-duration: 0.25s;
+    animation-fill-mode:forwards;
    
     
     
@@ -104,5 +109,15 @@ a:hover{
     100%{
         rotate: 360deg
     }
+}
+
+@keyframes resize {
+0% {
+    font-size: 5vw;
+}
+
+100% {
+    font-size: 5.5vw;
+}
 }
 
