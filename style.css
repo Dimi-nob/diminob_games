@@ -105,7 +105,7 @@ a:hover{
 .cover_1{
     display: block;
     margin: auto;
-    width: 35%;
+    width: 50%;
 }
 
 @keyframes rotate {
