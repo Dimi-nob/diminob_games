@@ -48,7 +48,7 @@ a:link{
     color: #7a4500;
     text-decoration: none;
     font-family:"jersey 10";
-    font-size:7vw;
+    font-size:5vw;
     border: #7a4500 solid 1vw;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -60,7 +60,7 @@ a:visited{
     color: #7a4500;
     text-decoration: none;
     font-family:"jersey 10";
-    font-size:7vw;
+    font-size:5vw;
     border: #7a4500 solid 1vw;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -74,7 +74,7 @@ a:hover{
     color: #d17906;
     text-decoration: none;
     font-family:"jersey 10";
-    font-size:8vw;
+    font-size:5vw;
     border: #d17906 solid 1vw;
     padding-left: 5vw;
     padding-right: 5vw;
