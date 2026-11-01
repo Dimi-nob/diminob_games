@@ -1,13 +1,13 @@
 @font-face {
     font-family: "jersey 10" ;
-    src: url(/assets/project_fonts/Jersey10-Regular.ttf);
+    src: url(assets/project_fonts/Jersey10-Regular.ttf);
 }
 @font-face {
     font-family: "sour gummy" ;
-    src: url(/assets/project_fonts/SourGummy-Regular.ttf);
+    src: url(assets/project_fonts/SourGummy-Regular.ttf);
 }
 
 @font-face {
     font-family: "roboto" ;
-    src: url(/assets/project_fonts/Roboto-Regular.ttf);
+    src: url(assets/project_fonts/Roboto-Regular.ttf);
 }
