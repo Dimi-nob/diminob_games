@@ -28,6 +28,7 @@ p{
     margin-right:15vw;
     margin-top:8vh;
     margin-bottom:8vh;
+    font-family: "roboto";
     
 }
 
@@ -69,7 +70,7 @@ a:hover{
     color: #d17906;
     text-decoration: none;
     font-family:"jersey 10";
-    font-size:7vw;
+    font-size:8vw;
     border: #d17906 solid 1vw;
     padding-left: 5vw;
     padding-right: 5vw;
