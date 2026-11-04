@@ -1,7 +1,8 @@
 @import url(fonts.css);
 
 body{
-    background-color: black;    
+    background-color: black;  
+    margin: 0;  
 }
 h1{
     color: #ea213a;
@@ -47,47 +48,56 @@ p:hover {
 }
 
 a:link{
-    color: #ea213a;
+    color: inherit;
     text-decoration: none;
-    font-family:"roboto";
-    font-size:5vw;
-    border: #ea213a solid 1vw;
-    background-color: black;
+    font-family:"jersey 10";
     padding-left: 5vw;
     padding-right: 5vw;
+    font-size: inherit;
    
 }
 
     
 a:visited{
-    color: #ea213a;
+    color: inherit;
     text-decoration: none;
-    font-family:"roboto";
-    font-size:5vw;
-    border: #ea213a solid 1vw;
-    background-color: black;
+    font-family:inherit;
     padding-left: 5vw;
     padding-right: 5vw;
     
     
     
 }
+ 
+
     
-a:hover{
+    
+
+
+button{
+    color: #ea213a;
+    text-decoration: none;
+    font-family:"jersey 10";
+    font-size:5vw;
+    border: #ea213a solid 1vw;
+    background-color: black;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    transition: font-size 0.25s ease-in-out
+
+}
+
+button:hover{
     color: #c9626e;
     text-decoration: none;
-    font-family:"roboto";
-    font-size:6vw;
+    font-family:"jersey 10";
+    font-size:5.75vw;
     border: #c9626e solid 1vw;
     background-color: black;
     padding-left: 5vw;
     padding-right: 5vw;
-    animation-name: resize;
-    animation-duration: 0.25s;
-    animation-fill-mode:forwards;
-   
     
-    
+
 }
 
 .logo{
@@ -117,13 +127,5 @@ a:hover{
     }
 }
 
-@keyframes resize {
-0% {
-    font-size: 5vw;
-}
 
-100% {
-    font-size: 5.5vw;
-}
-}
 
