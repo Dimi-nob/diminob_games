@@ -1,0 +1,118 @@
+@import url(../fonts.css);
+
+body{
+    background-color: #0094FFFF;    
+    margin: 0;
+}
+
+.scroll_ind{
+background-image: linear-gradient(transparent, rgba(209, 121, 6, 0.65) );
+position: fixed;
+bottom:0;
+color: white;
+width:100%;
+display: flex;
+justify-content: center; 
+font-size: 5vw;
+font-family: "jersey 10";
+}
+
+h1{
+    color: #d17906;
+    font-size:7vw;
+    text-align:center;
+    margin:0;
+    margin-bottom:10vh;
+    font-family:"jersey 10";
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5), -2px -2px 0px rgba(0, 0, 0, 0.5);
+    }
+
+h2{
+    color: #d17906;
+    font-size: 3.5vw;
+    text-align:start;
+    margin:0;
+    margin-left: 3vw;
+    margin-top:15px;
+    font-family:"sour gummy";
+    font-weight: 400;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5), -2px -2px 0px rgba(0, 0, 0, 0.5);
+}
+
+p{
+    color: #d17906;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right:15vw;
+    margin-top:8vh;
+    margin-bottom:8vh;
+    font-family: "roboto";
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5), -2px -2px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+p:hover {
+    text-align: center;
+    
+    margin-left: 15vw;
+    margin-right:15vw;
+    margin-top:8vh;
+    margin-bottom:8vh;
+    
+}
+
+
+
+    a:link{
+        color: inherit;
+        text-decoration: none;
+        font-family:"jersey 10";
+        padding-left: 5vw;
+        padding-right: 5vw;
+        font-size: inherit;
+       
+    }
+    
+        
+    a:visited{
+        color: inherit;
+        text-decoration: none;
+        font-family:inherit;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        
+        
+        
+    }
+     
+    
+        
+        
+    
+    
+    button{
+        color: rgb(122, 69, 0);
+        text-decoration: none;
+        font-family:"jersey 10";
+        font-size:5vw;
+        border: rgb(122, 69, 0) solid 1vw;
+        background-color: rgba(0, 0, 0, 0.384);
+        padding-left: 5vw;
+        padding-right: 5vw;
+        transition: font-size 0.25s ease-in-out
+    }
+    
+    button:hover{
+        color: rgb(209, 121, 6);
+        text-decoration: none;
+        font-family:"jersey 10";
+        font-size:5.75vw;
+        border: rgb(209, 121, 6) solid 1vw;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding-left: 5vw;
+        padding-right: 5vw;
+
+   
+    
+    
+}

@@ -4,6 +4,19 @@ body{
     background-color: black;  
     margin: 0;  
 }
+
+.scroll_ind{
+background-image: linear-gradient(transparent, #ea213a );
+position: fixed;
+bottom:0;
+color: white;
+width:100%;
+display: flex;
+justify-content: center; 
+font-size: 5vw;
+font-family: "jersey 10";
+}
+
 h1{
     color: #ea213a;
     font-size:7vw;
@@ -111,13 +124,6 @@ button:hover{
 
 
 }
-
-.cover_1{
-    display: block;
-    margin: auto;
-    width: 40vh;
-}
-
 @keyframes rotate {
     0% {
         rotate: 0deg
@@ -126,6 +132,39 @@ button:hover{
         rotate: 360deg
     }
 }
+
+.cover_1{
+    display: block;
+    margin: auto;
+    width: 40vh;
+}
+
+.cover_2{
+    display: block;
+    margin: auto;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    width: 40vh;
+    color: #ea213a;
+    border: #ea213a solid 1vw;
+    background-color: black;
+    flex-direction:  center;
+    transition: width 0.25s ease-in-out
+
+}
+.cover_2:hover{
+    color: #c9626e;
+    border: #c9626e solid 1vw;
+     display: block;
+    margin: auto;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    width: 44vh;
+    background-color: black;
+    flex-direction:  center;
+    
+
+
 
 
 
